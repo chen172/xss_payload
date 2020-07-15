@@ -1,2 +1,5 @@
 xss的payload是一段javascript代码，它会运行在浏览器上。
 有了payload后，要让这段payload在用户的浏览器上运行。
+
+反射形的xss需要诱导用户点击一个链接。
+储存形的xss需要等待用户浏览恶意的网页。
