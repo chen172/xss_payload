@@ -1,0 +1,2 @@
+xss的payload是一段javascript代码，它会运行在浏览器上。
+有了payload后，要让这段payload在用户的浏览器上运行。
